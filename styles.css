@@ -2,9 +2,9 @@ selector{
 
     margin: 0;
     padding: 0 ;
-    list -style: none;
-    text -decoration: none;
-    box- sizing: border -box;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border -box;
     font-family: san-serif;
 }
 body{
@@ -23,18 +23,21 @@ nav{
     justify-content: flex-end
 }
 
-.logo {
+.logo{
+
+}
+
     margin-right: auto;
     font-size: 1.8rem;
     font-weight:700;
     color:#38dbf8;
     cursor:pointer
-    text-transform: uppercase
-{
+    text-transform; uppercase
+    
 .navLinks{
-    margin-right: 30px
-    display: flex;
-    gap: 2rem;
+    margin right 30px;
+    display:flex
+    gap 2rem;
  }
  .navLinks li a{
     position: relative;
@@ -52,11 +55,11 @@ nav{
  }
  .btn{
     padding:0.5rem 1,5rem
-    border-radius: 30px;
+    border-radius 30px;
     font-weight:600;
     font-size: 1rem;
     background:#38dbf8
-    color:#081b29;
+    color#081b29;
     box-shadow:0 0 15px #38dbf8;
     border:none;
     cursor:pointer;
@@ -66,55 +69,3 @@ nav{
     background:#00abf0;
     box-shadow:0 0 25px #00abf0
  }
-
-       
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-nav a:hover{
-    text-decoration: underline;
-}
-main{
-    padding: 20px;
-    max-width:800px;
-    margin: 0 auto;
-}
-
-main img {
-    max-width: 100%;
-    height:auto;
-    display:block;
-    margin: 20px 0 ;
-}
-footer{
-    background-color: #333;
-    color:white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom:0;
-    width: 100%
-}
-p{
-    font-size: 1.1em;
-}
-a{
-    color:#4CAF50;
-    text-decoration:none;
-}
-
-a:hover{
-    text-decoration:underline;
-}
-img{
-    border:5px solid #4CAF50;
-    border-radius:10px;
-}
-main a[href^="mailto:"]{
-    color: #ff5722;
-    font-weight: bold;
-}
