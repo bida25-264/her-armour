@@ -25,15 +25,15 @@ nav{
 .logo{
    margin-right:auto ;
    font-size: 1.8rem;
-   color:#38dbf8
-   cursor: pointer
-   text-transform; uppercase 
+   color:#38dbf8;
+   cursor: pointer;
+   text-transform: uppercase;
 
 }
 .navLinks{
     margin-right:30px;
-    display:flex
-    gap 2rem;
+    display:flex;
+    gap: 2rem;
  }
  .navLinks li a{
     position: relative;
@@ -50,12 +50,12 @@ nav{
     display: flex;
  }
  .btn{
-    padding:0.5rem 1,5rem
-    border-radius 30px;
+    padding:0.5rem 1,5rem;
+    border-radius:30px;
     font-weight:600;
     font-size: 1rem;
-    background:#38dbf8
-    color#081b29;
+    background:#38dbf8;
+    color: #081b29;
     box-shadow:0 0 15px #38dbf8;
     border:none;
     cursor:pointer;
@@ -63,5 +63,5 @@ nav{
  }
  .btn:hover{
     background:#00abf0;
-    box-shadow:0 0 25px #00abf0
+    box-shadow:0 0 25px #00abf0;
  }
