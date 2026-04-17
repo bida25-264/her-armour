@@ -3,6 +3,12 @@ body{
    font-family: "Saira", san-serif;
 }
 
+header{
+   position: fixed;
+   width: 100%;
+   z-index: 5;
+   background-color:#87CEEB;
+}
 .header .navbar{
    display:flex;
    justify-content: space-between;
