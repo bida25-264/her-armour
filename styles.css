@@ -1,1 +1,42 @@
+body{
+   margin:0;
+   font-family: "Saira", san-serif;
+}
 
+/* navbar styling */
+header{
+   position:fixed;
+   width: 100%;
+   z-index: 5;
+   background-color:skyblue;
+}
+ .navbar{
+   display: flex;
+   justify-content: right; 
+   align-items: center;
+   padding: 20px;
+}
+
+ .logo{
+   color:white;
+   justify-content: left;
+   text-align:left;
+   margin-right:auto;
+
+}
+.nav-menu{
+   display:flex;
+   gap: 10px;
+}
+ .nav-link{
+   color:white;
+   padding: 10px 18px;
+   background-color:brown ;
+   font-size:1.12rem;
+   border-radius:30px;
+   transition:0.23s ease;
+}
+ .nav-link:hover{
+   color: white;
+   background-color: white;
+}
