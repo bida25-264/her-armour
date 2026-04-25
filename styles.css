@@ -1,7 +1,7 @@
 body{
     margin:0;
     font-family:"Saira",sans-serif;
-    background-color: palevioletred;
+    background-color: rgb(198, 54, 102);
 } 
 .navbar-nav{
     list-style-type: 0;
@@ -10,7 +10,7 @@ body{
     background-color: darkgrey;
     overflow:hidden;
     display:flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
 .nav-item{
     display:inline-block;
@@ -24,10 +24,15 @@ body{
     font-family:Arial,san-serif;
     font-size:16px;
     transition:background-color 0.3s ease;
+    border:2px solid white;
+    border-radius:8px;
+    margin:5px;
+    background-color: #3a5a7a;
 }
 .navbar-nav.navlink:hover{
     background-color:palevioletred;
-    border-radius:4px;
+    border-radius:8px;
+    border-color:rgb(56, 53, 53)
 
 }
 .navbar-nav.nav-link{
