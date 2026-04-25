@@ -1,6 +1,7 @@
 body{
     margin:0;
     font-family:"Saira",sans-serif;
+    background-color: palevioletred;
 } 
 .navbar{
     display:flex;
@@ -11,7 +12,7 @@ body{
     padding:15px 30px;
 }
 .nav-links{
-    list-sytle:none;
+    list-style:none;
     display: flex;
     gap: 25px;
     margin:0;
